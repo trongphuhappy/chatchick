@@ -40,7 +40,7 @@ export default function HeaderComponent() {
     return (
         <header className="px-3 flex flex-row items-center gap-x-5 justify-between shadow-header-shadown bg-white">
             <div className="flex items-center gap-x-2 cursor-pointer" onClick={navigateHome}>
-                <img src="chatchick.jpg" alt="logo" className="w-10 h-10 object-contain" />
+                <img src="chatchick.png" alt="logo" className="w-10 h-10 object-contain" />
                 <h1 className="text-4xl font-matemasie font-normal">
                     <span className="text-blue-500">Chat</span>
                     <span className="text-yellow-400">Chick</span>

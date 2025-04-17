@@ -27,6 +27,9 @@ export default function RootLayout({
   return (
     <StoreProvider >
       <html lang="en">
+        <head>
+          <link rel="icon" href="/chatchick.jpg" />
+        </head>
         <body className={`${inter.className} ${poppins.className}`}>
           <NotificationComponent>
             <MessageComponent>
