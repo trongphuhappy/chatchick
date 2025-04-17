@@ -1,0 +1,35 @@
+.content-container {
+  width: 300px;
+  margin: 1.25rem 0;
+}
+
+.content {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  max-height: calc(1.5em * 4);
+}
+
+.content.expanded {
+  max-height: none;
+  -webkit-line-clamp: unset;
+}
+
+.view-more-btn {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.view-more-btn:hover {
+  background-color: #1d4ed8;
+}

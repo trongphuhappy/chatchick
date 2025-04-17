@@ -1,0 +1,11 @@
+.message::-webkit-scrollbar {
+  width: 8px;
+}
+
+.message::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.message::-webkit-scrollbar-thumb {
+  background: #ccc;
+}

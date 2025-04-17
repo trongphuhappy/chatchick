@@ -1,0 +1,26 @@
+.box {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  gap: 12px;
+  border-radius: 0.5rem;
+}
+
+.color {
+  color: #686565;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bg-active {
+  background-color: #217be2;
+}
+
+.color-active {
+  color: #f4f8f8;
+}

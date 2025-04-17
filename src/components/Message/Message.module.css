@@ -1,0 +1,35 @@
+.message::-webkit-scrollbar {
+  width: 8px;
+}
+
+.message::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.message::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+.messagebox::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messagebox::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.messagebox::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+.messageinputbox::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messageinputbox::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.messageinputbox::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
